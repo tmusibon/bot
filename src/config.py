@@ -4,9 +4,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # API Endpoints
-DEX_SCREENER_API = os.getenv('DEX_SCREENER_API_URL', 'https://api.dexscreener.com/latest/dex/tokens/')
-RUGCHECK_API = os.getenv('RUGCHECK_API_URL', 'https://api.rugcheck.xyz/v1/')
-DISCORD_BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN', '')
+DEX_SCREENER_API = os.getenv('DEX_SCREENER_API')
+RUGCHECK_API = os.getenv('RUGCHECK_API')
+DISCORD_BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 
 # Trading Parameters
 MIN_MARKET_CAP = float(os.getenv('MIN_MARKET_CAP', 400000))
