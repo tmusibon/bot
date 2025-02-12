@@ -1,6 +1,6 @@
 from telegram.ext import Application, CommandHandler
 from .api.client import APIClient
-from .utils.analysis import analyze_pair, format_price, format_large_number
+from .analysis import analyze_pair, format_price, format_large_number
 
 class TradingBot:
     def __init__(self, token):

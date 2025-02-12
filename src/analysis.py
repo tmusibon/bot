@@ -20,3 +20,16 @@ def format_price(price):
         return f"${price:.4f}"
     else:
         return f"${price:,.2f}"
+
+# If you want to add the trading strategy functions:
+def calculate_rsi(prices):
+    # RSI calculation code here
+    pass
+
+def calculate_macd(prices):
+    # MACD calculation code here
+    pass
+
+class TradingStrategy:
+    # Trading strategy code here
+    pass
